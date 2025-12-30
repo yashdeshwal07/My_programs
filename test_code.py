@@ -1,13 +1,12 @@
 import requests
 
-GROQ_API_KEY = "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"
 
 def ask_ai(prompt):
     import requests
 
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Authorization": "Bearer API_KEY",
         "Content-Type": "application/json"
     }
     data = {
