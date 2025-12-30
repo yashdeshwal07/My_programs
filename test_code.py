@@ -7,7 +7,7 @@ def ask_ai(prompt):
 
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
-        "Authorization": "Bearer API_KEY",
+        "Authorization": f"Bearer {GROQ_API}",
         "Content-Type": "application/json"
     }
     data = {
