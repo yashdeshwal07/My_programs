@@ -1,2 +1,2 @@
-# Jarvis_personal_assitant
-this is a a personal desktop assitant
+# My programs
+Jarvis_AI is a personal desktop assitant
